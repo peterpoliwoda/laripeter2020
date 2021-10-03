@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $('#error-message').hide();
 
-    var url = 'https://peterpoliwoda.me:4001/';
+    var url = 'https://peterpoliwoda.me:4002/';
     $.get(url + 'number-of-guests', function(data, status) {
         console.log(`${data} and status is ${status}`);
         $('#rsvps-confirmed').html(data);
