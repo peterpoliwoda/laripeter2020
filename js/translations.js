@@ -34,25 +34,22 @@ $(document).ready(function() {
             pl: 'i',
             pt: 'e'
         },
-        'will unfortunately not invite you to their wedding': {
-            pl: 'odwołują swoje wesele',
+        'invite you to their wedding': {
+            pl: 'zapraszają na swoje wesele',
             pt: 'esperam por você nesse dia tão importante'
         },
         'on': {
             pl: 'dnia',
             pt: 'dia'
         },
-        'CANCELLED': {
-            pl: 'ODWOŁANO',
-            pt: 'CANCELADO'
+        '8 January 2022': {
+            pl: '8 stycznia 2022',
+            pt: '8 Janeiro 2022'
         },
-        'POSTPONED': {
-            pl: 'PRZESUNIĘTO',
-            pt: 'ADIAR'
-        },
-        'RSVP closed until further notice': {
-            pl: 'Formularz potwierdzeń wyłączony do odwołania.',
-            pt: 'RSVP fechado até novo aviso.',
+        'let-us-know': {
+            en: 'RSVP reopened. Let us know if you can make it!',
+            pl: 'Formularz potwierdzeń wznowiony! Daj nam znać czy będziesz.',
+            pt: 'Por favor, deixe-nos saber se você vai comparecer',
         },
         'in': {
             pl: 'w',
@@ -144,11 +141,6 @@ $(document).ready(function() {
         'Public transport': {
             pl: 'Transport publiczny',
             pt: 'Transporte público'
-        },
-        'let-us-know': {
-            en: 'Please let us know if you\'re coming',
-            pl: 'Daj nam znać czy będziesz',
-            pt: 'Por favor, deixe-nos saber se você vai comparecer'
         },
         'Will you be attending?': {
             pl: 'Potwiedzam przybycie',
