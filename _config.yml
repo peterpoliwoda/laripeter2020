@@ -7,4 +7,4 @@ url: "http://peterpoliwoda.me" # The base hostname & protocol for your site. Use
 #sass:
 #    style: compressed
 
-exclude: [.scss, README.md, node_modules, gruntfile.js, package.json]
+exclude: [.scss, README.md, node_modules, gruntfile.js, lambda, package.json]

@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $('#error-message').hide();
 
-    var url = 'http://peterpoliwoda.me:4002/';
+    var url = 'https://laripeter2020.herokuapp.com/';
     $.get(url + 'number-of-guests', function(data, status) {
         console.log(`${data} and status is ${status}`);
         $('#rsvps-confirmed').html(data);
@@ -10,15 +10,11 @@ $(document).ready(function() {
     });
 
     function validateForm() {
-        if ($('#guest_name').val()
+        return ($('#guest_name').val()
             && $('#guest_email').val()
             && $('#guest_email').val().indexOf('@') > 1
             && $('#guest_phone').val()
-            && $('#guest_numbers').val()) {
-            return true;
-        } else {
-            return false;
-        }
+            && $('#guest_numbers').val());
     }
 
     $('#send-rsvp').click(function() {
@@ -35,8 +31,8 @@ $(document).ready(function() {
                 guest_attending: $('input[type=radio][name=guest_attending]:checked').val(),
             };
 
-            $.post(url + 'rsvp/', data, function(data, status) {
-                console.log(`${data} and status is ${status}`);
+            $.post(url + 'rsvp/', data, function(sendData, status) {
+                console.log(`${sendData} and status is ${status}`);
                 $('#rsvp_form').hide();
                 $('#send-rsvp').hide();
                 $('#error-message').removeClass('alert-danger').addClass('alert-success');
