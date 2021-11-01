@@ -46,6 +46,16 @@ $(document).ready(function() {
             pl: '8 stycznia 2022',
             pt: '8 Janeiro 2022'
         },
+        'at_time': {
+            en: 'at',
+            pl: 'o godz.',
+            pt: 'às'
+        },
+        'full-wedding-date': {
+            en: '08/01/2021 at 14:00',
+            pl: '08/01/2021 o godz. 14:00',
+            pt: '08/01/2021 às 14:00'
+        },
         'let-us-know': {
             en: 'RSVP reopened. Let us know if you can make it!',
             pl: 'Formularz potwierdzeń wznowiony! Daj nam znać czy będziesz.',
@@ -167,9 +177,9 @@ $(document).ready(function() {
             pl: 'twoj@email.pl',
             pt: 'seu@email.com.br'
         },
-        'Number of people': {
-            pl: 'Liczba gości',
-            pt: 'Número de convidados'
+        'Total number of people': {
+            pl: 'Liczba gości (razem)',
+            pt: 'Número de convidados (total)'
         },
         'leave-a-note': {
             en: 'Leave a note (Optional)',
@@ -296,7 +306,7 @@ $(document).ready(function() {
         },
         'To be confirmed': {
             pl: '(Do potwierdzenia)',
-            pt: '(a comfirmar)'
+            pt: '(a confirmar)'
         },
         'uber_info': {
             en: 'A good cheap transport option',
@@ -327,9 +337,9 @@ $(document).ready(function() {
             pt: 'Compartilhe conosco as suas fotos no Instagram! <br/>Use #laripeter2020',
         },
         'optional_accommodation': {
-            en: 'If you would like there is a possibility of staying at the Fazenda'
-            + ' for the duration of the wedding weekend.',
-            pl: ' ',
+            en: 'There is a possibility of staying at the Fazenda'
+            + ' for the wedding weekend. Details below:',
+            pl: 'Fazenda umożliwia zakwaterowanie podczas weekendu ślubnego.',
             pt: 'Se você quiser ficar hospedado conosco na fazenda durante o fim de semana,'
             + ' eles tem as seguintes opções: <br>'
         },
