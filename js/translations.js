@@ -52,9 +52,9 @@ $(document).ready(function() {
             pt: 'às'
         },
         'full-wedding-date': {
-            en: '08/01/2021 at 14:00',
-            pl: '08/01/2021 o godz. 14:00',
-            pt: '08/01/2021 às 14:00'
+            en: '08/01/2021 at 16:15',
+            pl: '08/01/2021 o godz. 16:15',
+            pt: '08/01/2021 às 16:15'
         },
         'let-us-know': {
             en: 'RSVP reopened. Let us know if you can make it!',
