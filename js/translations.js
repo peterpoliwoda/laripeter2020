@@ -182,6 +182,10 @@ $(document).ready(function() {
             pl: 'Liczba gości (razem):',
             pt: 'Número de convidados (total):'
         },
+        'Message sent. Thank you!': {
+            pl: 'Wysłano. Dziękujemy!',
+            pt: 'Confirmação foi enviado. Obrigado!',
+        },
         'leave-a-note': {
             en: 'Leave a note (Optional)',
             pl: 'Dodatkowa wiadomość (Opcjonalnie)',
