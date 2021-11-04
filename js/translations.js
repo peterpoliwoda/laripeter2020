@@ -177,9 +177,10 @@ $(document).ready(function() {
             pl: 'twoj@email.pl',
             pt: 'seu@email.com.br'
         },
-        'Total number of people': {
-            pl: 'Liczba gości (razem)',
-            pt: 'Número de convidados (total)'
+        'total-number-of-people': {
+            en: 'Total number of people:',
+            pl: 'Liczba gości (razem):',
+            pt: 'Número de convidados (total):'
         },
         'leave-a-note': {
             en: 'Leave a note (Optional)',
