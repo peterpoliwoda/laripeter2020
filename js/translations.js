@@ -70,9 +70,9 @@ $(document).ready(function() {
             pt: 'Deixe-nos saber se você pode vir'
         },
         'sao-paulo-location': {
-            en: 'São Paulo, Brazil',
-            pl: 'São Paulo, Brazil',
-            pt: 'Salto de Pirapora, sp'
+            en: 'Pilar do Sul, SP, Brazil',
+            pl: 'Pilar do Sul, SP, Brazil',
+            pt: 'Pilar do Sul, sp'
         },
         'A little about us': {
             pl: 'Trochę o nas',
