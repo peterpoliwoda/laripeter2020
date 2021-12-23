@@ -70,9 +70,9 @@ $(document).ready(function() {
             pt: 'Deixe-nos saber se você pode vir'
         },
         'sao-paulo-location': {
-            en: 'Pilar do Sul, SP, Brazil',
-            pl: 'Pilar do Sul, SP, Brazil',
-            pt: 'Pilar do Sul, sp'
+            en: 'Pilar do Sul',
+            pl: 'Pilar do Sul',
+            pt: 'Pilar do Sul'
         },
         'A little about us': {
             pl: 'Trochę o nas',
