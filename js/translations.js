@@ -61,6 +61,16 @@ $(document).ready(function() {
             pl: 'Formularz potwierdzeń wznowiony! Daj nam znać czy będziesz.',
             pt: 'Por favor, deixe-nos saber se você vai comparecer',
         },
+        'rsvp-now-closed':  {
+            en: 'The RSVP is now closed. Thank you.',
+            pl: 'Formularz potwierdzeń jest zamknięty. Dziękujemy wszystkim za potwierdzenie przybycia.',
+            pt: 'Formulário de contato fechado. Agradecemos pelo sua confirmação',
+        },
+        'rsvp-contact-us-text': {
+            en: 'If you still need to contact us shoot us a text or email.',
+            pl: 'Jeśli chcesz się z nami skontaktować, daj nam znać telefonicznie, albo na maila.',
+            pt: 'Se quiser entrar em contato conosco, ligue-nos ou envie-nos uma mensagem .',
+        },
         'in': {
             pl: 'w',
             pt: 'em'
@@ -75,7 +85,7 @@ $(document).ready(function() {
             pt: 'Pilar do Sul'
         },
         'A little about us': {
-            pl: 'Trochę o nas',
+            pl: 'Kilka słow o nas',
             pt: 'Um pouco sobre nós'
         },
         'our-story-desc': {

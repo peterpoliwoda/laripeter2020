@@ -111,7 +111,8 @@
           <h2 class="thedate text-dark trn">14:45</h2>
           <p class="thedate trn">in</p>
           <h2 class="calligraphic trn" data-trn-key="sao-paulo-location">Pilar do Sul</h2>
-          <p class="thedate trn">Let us know if you can make it</p>
+          <!-- <p class="thedate trn">Let us know if you can make it</p> -->
+          <p class="thedate trn" data-trn-key="rsvp-now-closed">The RSVP is now closed. Thank you.</p>
         </div>
       </div>
       <div class="row">
@@ -417,7 +418,15 @@
       <div class="row bg-light py-4 shadow" id="rsvp">
         <div class="mx-auto col-lg-6 col-10">
           <h1 class="text-primary trn">RSVP</h1>
-          <p class="mb-3 trn" data-trn-key="let-us-know">Please let us know if you're coming</p>
+
+          <!-- RSVP now closed-->
+          <p class="mb-3 trn" data-trn-key="rsvp-now-closed">The RSVP is now closed. Thank you.</p>
+          <p class="mb-3 trn" data-trn-key="rsvp-contact-us-text">If you still need to contact us shoot us a text or email.
+          </p>
+
+          <!-- RSVP reopened -->
+          <!-- <p class="mb-3 trn" data-trn-key="let-us-know">Please let us know if you're coming</p>
+
           <form class="text-center" action="" name="rsvp_form" id="rsvp_form" method="POST">
             <div class="form-group text-left"> <input type="text" name="guest_name" class="form-control trn"
                 id="guest_name" placeholder="Your name"> </div>
@@ -427,8 +436,6 @@
                 id="guest_email" data-trn-key="your-email" placeholder="your@email.com"> </div>
 
             <div class="form-group text-left">
-            <!-- <input name="guest_numbers" type="number" maxlength="2" class="form-control trn"
-                id="guest_numbers" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" placeholder="Total number of people"> -->
                 <label class="trn" data-trn-key="total-number-of-people" for="guest_numbers">Total number of people:</label>
                 <select name="guest_numbers" id="guest_numbers" class="form-control">
                     <option value="1">1</option>
@@ -474,6 +481,7 @@
             <div class="col" id="rsvps-confirmed">
             </div>
           </div>
+          -->
         </div>
       </div>
     </div>
