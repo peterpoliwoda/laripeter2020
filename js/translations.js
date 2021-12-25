@@ -64,7 +64,7 @@ $(document).ready(function() {
         'rsvp-now-closed':  {
             en: 'The RSVP is now closed. Thank you.',
             pl: 'Formularz potwierdzeń jest zamknięty. Dziękujemy wszystkim za potwierdzenie przybycia.',
-            pt: 'Formulário de contato fechado. Agradecemos pelo sua confirmação',
+            pt: 'Formulário de contato fechado. Agradecemos pela sua confirmação.',
         },
         'rsvp-contact-us-text': {
             en: 'If you still need to contact us shoot us a text or email.',
