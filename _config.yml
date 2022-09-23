@@ -1,7 +1,7 @@
 # Site settings
 title: Peter and Lari 2020
 tagline: "Wedding website like no other"
-url: "http://peterpoliwoda.me" # The base hostname & protocol for your site. Use it if you need absolute URL's
+url: "https://github.com/peterpoliwoda/laripeter2020" # The base hostname & protocol for your site. Use it if you need absolute URL's
 
 # Use this for production
 #sass:
